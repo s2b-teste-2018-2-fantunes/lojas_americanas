@@ -39,12 +39,12 @@ public class RegisterAppObject {
 	}
 	
 	
-	public WebElement getMaleBox() {
+	public WebElement getMaleRadioBtn() {
 		return this.driver.findElement(By.xpath("//*[@id=\"gender\"]/div[1]/label"));
 	}
 	
-	public WebElement getFemaleField() {
-		return this.driver.findElement(By.id("gender_F"));
+	public WebElement getFemaleRadioBtn() {
+		return this.driver.findElement(By.xpath("//*[@id=\"gender\"]/div[2]/label"));
 	}
 	
 	public WebElement getCellphoneNumberField() {

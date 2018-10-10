@@ -19,7 +19,7 @@ public class RegisterTask {
 		this.registerAppObject.getCPFField().sendKeys(cpf);
 		this.registerAppObject.getFullNameField().sendKeys(name);
 		this.registerAppObject.getBirthdayField().sendKeys(birthday);
-		this.registerAppObject.getMaleBox().click();
+		this.registerAppObject.getMaleRadioBtn().click();
 		this.registerAppObject.getCellphoneNumberField().sendKeys(cellphone);
 		this.registerAppObject.getSubscriptionCheckbox().click();
 	}
