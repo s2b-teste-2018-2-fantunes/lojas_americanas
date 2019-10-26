@@ -16,7 +16,7 @@ public class RegisterTestCase {
 	
 	@Before
 	public void SetupTest() {
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.edgedriver().setup();
 		this.driver = new ChromeDriver();
 		this.driver.get("https://cliente.americanas.com.br/simple-login/cadastro/"
 				+ "pf?next=https%3A%2F%2Fwww.americanas.com.br%2F");

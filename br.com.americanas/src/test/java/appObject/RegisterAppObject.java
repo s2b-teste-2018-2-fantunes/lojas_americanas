@@ -14,40 +14,40 @@ public class RegisterAppObject {
 		//wait = new WebDriverWait(driver, 10);
 	}
 	
-	public WebElement getEmailField() {
+	public appObject.copy.WebElement getEmailField() {
 		return this.driver.findElement(By.id("email-input"));
 	}
 	
 	
-	public WebElement getPasswordField() {
+	public appObject.copy.WebElement getPasswordField() {
 		return this.driver.findElement(By.id("password-input"));
 	}
 	
 	
-	public WebElement getCPFField() {
+	public appObject.copy.WebElement getCPFField() {
 		return this.driver.findElement(By.id("cpf-input"));
 	}
 	
 	
-	public WebElement getFullNameField() {
+	public appObject.copy.WebElement getFullNameField() {
 		return this.driver.findElement(By.id("name-input"));
 	}
 	
 	
-	public WebElement getBirthdayField() {
+	public appObject.copy.WebElement getBirthdayField() {
 		return this.driver.findElement(By.id("birthday-input"));
 	}
 	
 	
-	public WebElement getMaleRadioBtn() {
+	public appObject.copy.WebElement getMaleRadioBtn() {
 		return this.driver.findElement(By.xpath("//*[@id=\"gender\"]/div[1]/label"));
 	}
 	
-	public WebElement getFemaleRadioBtn() {
+	public appObject.copy.WebElement getFemaleRadioBtn() {
 		return this.driver.findElement(By.xpath("//*[@id=\"gender\"]/div[2]/label"));
 	}
 	
-	public WebElement getCellphoneNumberField() {
+	public appObject.copy.WebElement getCellphoneNumberField() {
 		return this.driver.findElement(By.id("phone-input"));
 	}
 	
